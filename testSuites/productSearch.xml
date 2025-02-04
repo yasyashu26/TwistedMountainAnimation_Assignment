@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	
+  <test name="HomePageTest">
+    <classes>
+      <class name="com.example.TwistedMountainAnimation.Tests.HomePageTest"/>
+     
+    </classes>
+  </test> <!-- Test -->
+  
+   <test name="SearchPageTest">
+    <classes>
+      
+      <class name="com.example.TwistedMountainAnimation.Tests.SearchPageTest"/>
+    </classes>
+  </test>
+  
+  <test name="ProductPageTest">
+    <classes>
+      
+      <class name="com.example.TwistedMountainAnimation.Tests.ProductPageTest"/>
+    </classes>
+  </test>
+  
+  
+</suite> <!-- Suite -->

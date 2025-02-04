@@ -1,0 +1,4 @@
+com\example\TwistedMountainAnimation\pageObjects\ProductPage.class
+com\example\TwistedMountainAnimation\pageObjects\HomePage.class
+com\example\TwistedMountainAnimation\pageObjects\SearchPage.class
+com\example\TwistedMountainAnimation\AbstractComponents\AbstractComponent.class

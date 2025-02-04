@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="tests" name="Failed suite [BrowserStackTestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="3" parallel="tests" name="Edge-1920x1080(failed)">
+    <parameter name="os" value="Windows"/>
+    <parameter name="browser" value="edge"/>
+    <parameter name="resolution" value="1600x900"/>
+    <classes>
+      <class name="com.example.TwistedMountainAnimation.Tests.ProductSearchTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initializeDriver"/>
+          <include name="verifyProductSearchAndDetails"/>
+        </methods>
+      </class> <!-- com.example.TwistedMountainAnimation.Tests.ProductSearchTest -->
+    </classes>
+  </test> <!-- Edge-1920x1080(failed) -->
+</suite> <!-- Failed suite [BrowserStackTestSuite] -->
