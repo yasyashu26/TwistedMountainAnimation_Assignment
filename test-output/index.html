@@ -221,6 +221,7 @@
 &lt;suite thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;BrowserStackTestSuite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;Chrome-1920x1080&quot;&gt;
     &lt;parameter name=&quot;os&quot; value=&quot;Windows&quot;/&gt;
+    &lt;parameter name=&quot;osVersion&quot; value=&quot;10&quot;/&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;parameter name=&quot;resolution&quot; value=&quot;1920x1080&quot;/&gt;
     &lt;classes&gt;
@@ -231,6 +232,7 @@
   &lt;/test&gt; &lt;!-- Chrome-1920x1080 --&gt;
   &lt;test thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;Firefox-1920x1080&quot;&gt;
     &lt;parameter name=&quot;os&quot; value=&quot;Windows&quot;/&gt;
+    &lt;parameter name=&quot;osVersion&quot; value=&quot;10&quot;/&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
     &lt;parameter name=&quot;resolution&quot; value=&quot;1366x768&quot;/&gt;
     &lt;classes&gt;
@@ -283,27 +285,27 @@ data.addRows(6);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'verifyFooterLinksStatus')
 data.setCell(0, 2, 'com.example.TwistedMountainAnimation.Tests.FooterLinkStatusTest')
-data.setCell(0, 3, 43107);
+data.setCell(0, 3, 35944);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'verifyFooterLinksStatus')
 data.setCell(1, 2, 'com.example.TwistedMountainAnimation.Tests.FooterLinkStatusTest')
-data.setCell(1, 3, 38450);
+data.setCell(1, 3, 33272);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'verifyProductSearchAndDetails')
 data.setCell(2, 2, 'com.example.TwistedMountainAnimation.Tests.ProductSearchTest')
-data.setCell(2, 3, 21815);
+data.setCell(2, 3, 15353);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'verifyProductSearchAndDetails')
 data.setCell(3, 2, 'com.example.TwistedMountainAnimation.Tests.ProductSearchTest')
-data.setCell(3, 3, 17605);
+data.setCell(3, 3, 14020);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'testHomePageTitle')
 data.setCell(4, 2, 'com.example.TwistedMountainAnimation.Tests.HomePageTitleTest')
-data.setCell(4, 3, 17412);
+data.setCell(4, 3, 396);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'testHomePageTitle')
 data.setCell(5, 2, 'com.example.TwistedMountainAnimation.Tests.HomePageTitleTest')
-data.setCell(5, 3, 518);
+data.setCell(5, 3, 251);
 window.suiteTableData['BrowserStackTestSuite']= { tableData: data, tableDiv: 'times-div-BrowserStackTestSuite'}
 return data;
 }
@@ -336,94 +338,100 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">com.example.TwistedMountainAnimation.Tests.HomePageTitleTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <span class="method-name">initializeDriver(chrome, Windows, 1920x1080)</span>
+                <span class="method-name">initializeDriver(chrome, Windows, 10, 1920x1080)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
-                <span class="method-name">initializeDriver(firefox, Windows, 1366x768)</span>
+                <span class="method-name">initializeDriver(firefox, Windows, 10, 1366x768)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testHomePageTitle</span>
-                <span class="method-start">17750 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">testHomePageTitle</span>
-                <span class="method-start">23011 ms</span>
+                <span class="method-start">23016 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">23534 ms</span>
+                <span class="method-start">23271 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.example.TwistedMountainAnimation.Tests.ProductSearchTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <span class="method-name">initializeDriver(firefox, Windows, 1366x768)</span>
-                <span class="method-start">25214 ms</span>
+                <span class="method-name">initializeDriver(chrome, Windows, 10, 1920x1080)</span>
+                <span class="method-start">24699 ms</span>
               </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyProductSearchAndDetails</span>
+                <span class="method-start">41700 ms</span>
+              </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.example.TwistedMountainAnimation.Tests.HomePageTitleTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testHomePageTitle</span>
+                <span class="method-start">47854 ms</span>
+              </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">35164 ms</span>
+                <span class="method-start">48253 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.example.TwistedMountainAnimation.Tests.ProductSearchTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <span class="method-name">initializeDriver(chrome, Windows, 1920x1080)</span>
-                <span class="method-start">36685 ms</span>
+                <span class="method-name">initializeDriver(firefox, Windows, 10, 1366x768)</span>
+                <span class="method-start">49683 ms</span>
               </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">verifyProductSearchAndDetails</span>
-                <span class="method-start">45441 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">verifyProductSearchAndDetails</span>
-                <span class="method-start">53334 ms</span>
-              </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">63048 ms</span>
+                <span class="method-start">57056 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.example.TwistedMountainAnimation.Tests.FooterLinkStatusTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <span class="method-name">initializeDriver(firefox, Windows, 1366x768)</span>
-                <span class="method-start">64583 ms</span>
+                <span class="method-name">initializeDriver(chrome, Windows, 10, 1920x1080)</span>
+                <span class="method-start">58716 ms</span>
               </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.example.TwistedMountainAnimation.Tests.ProductSearchTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyProductSearchAndDetails</span>
+                <span class="method-start">68945 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.example.TwistedMountainAnimation.Tests.FooterLinkStatusTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyFooterLinksStatus</span>
+                <span class="method-start">75709 ms</span>
+              </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.example.TwistedMountainAnimation.Tests.ProductSearchTest</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">75151 ms</span>
+                <span class="method-start">82967 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.example.TwistedMountainAnimation.Tests.FooterLinkStatusTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <span class="method-name">initializeDriver(chrome, Windows, 1920x1080)</span>
-                <span class="method-start">76974 ms</span>
+                <span class="method-name">initializeDriver(firefox, Windows, 10, 1366x768)</span>
+                <span class="method-start">84396 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyFooterLinksStatus</span>
-                <span class="method-start">83882 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">verifyFooterLinksStatus</span>
-                <span class="method-start">93563 ms</span>
+                <span class="method-start">99401 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">122334 ms</span>
+                <span class="method-start">108983 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">136673 ms</span>
+                <span class="method-start">135347 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

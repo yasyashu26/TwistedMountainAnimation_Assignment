@@ -5,6 +5,7 @@
     <test name="Chrome-1920x1080">
         <parameter name="browser" value="chrome"/>
         <parameter name="os" value="Windows"/>
+        <parameter name="osVersion" value="10"/>
         <parameter name="resolution" value="1920x1080"/>
         <classes>
 			 <class name="com.example.TwistedMountainAnimation.Tests.HomePageTitleTest"/>
@@ -16,6 +17,7 @@
     <test name="Firefox-1920x1080">
         <parameter name="browser" value="firefox"/>
         <parameter name="os" value="Windows"/>
+        <parameter name="osVersion" value="10"/>
         <parameter name="resolution" value="1366x768"/>
         <classes>
 			<class name="com.example.TwistedMountainAnimation.Tests.HomePageTitleTest"/>
