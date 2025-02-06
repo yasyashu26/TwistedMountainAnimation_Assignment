@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-02-04T23:42:50 IST" name="BrowserStackTestSuite" finished-at="2025-02-04T23:45:07 IST" duration-ms="136876">
+  <suite started-at="2025-02-06T09:42:06 IST" name="BrowserStackTestSuite" finished-at="2025-02-06T09:44:08 IST" duration-ms="122544">
     <groups>
     </groups>
-    <test started-at="2025-02-04T23:42:50 IST" name="Chrome-1920x1080" finished-at="2025-02-04T23:44:40 IST" duration-ms="110409">
+    <test started-at="2025-02-06T09:42:06 IST" name="Chrome-1920x1080" finished-at="2025-02-06T09:44:01 IST" duration-ms="115782">
       <class name="com.example.TwistedMountainAnimation.Tests.FooterLinkStatusTest">
-        <test-method is-config="true" signature="initializeDriver(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.example.TwistedMountainAnimation.Tests.FooterLinkStatusTest@183ec003]" started-at="2025-02-04T23:43:49 IST" name="initializeDriver" finished-at="2025-02-04T23:44:06 IST" duration-ms="16992" status="PASS">
+        <test-method is-config="true" signature="initializeDriver(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.example.TwistedMountainAnimation.Tests.FooterLinkStatusTest@183ec003]" started-at="2025-02-06T09:43:08 IST" name="initializeDriver" finished-at="2025-02-06T09:43:26 IST" duration-ms="17952" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -33,17 +33,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeDriver -->
-        <test-method signature="verifyFooterLinksStatus()[pri:0, instance:com.example.TwistedMountainAnimation.Tests.FooterLinkStatusTest@183ec003]" started-at="2025-02-04T23:44:06 IST" name="verifyFooterLinksStatus" finished-at="2025-02-04T23:44:39 IST" duration-ms="33272" status="PASS">
+        <test-method signature="verifyFooterLinksStatus()[pri:0, instance:com.example.TwistedMountainAnimation.Tests.FooterLinkStatusTest@183ec003]" started-at="2025-02-06T09:43:26 IST" name="verifyFooterLinksStatus" finished-at="2025-02-06T09:44:00 IST" duration-ms="34084" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyFooterLinksStatus -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.TwistedMountainAnimation.Tests.FooterLinkStatusTest@183ec003]" started-at="2025-02-04T23:44:39 IST" name="tearDown" finished-at="2025-02-04T23:44:40 IST" duration-ms="1318" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.TwistedMountainAnimation.Tests.FooterLinkStatusTest@183ec003]" started-at="2025-02-06T09:44:00 IST" name="tearDown" finished-at="2025-02-06T09:44:01 IST" duration-ms="1415" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.example.TwistedMountainAnimation.Tests.FooterLinkStatusTest -->
       <class name="com.example.TwistedMountainAnimation.Tests.HomePageTitleTest">
-        <test-method is-config="true" signature="initializeDriver(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.example.TwistedMountainAnimation.Tests.HomePageTitleTest@53fb3dab]" started-at="2025-02-04T23:42:50 IST" name="initializeDriver" finished-at="2025-02-04T23:43:13 IST" duration-ms="23014" status="PASS">
+        <test-method is-config="true" signature="initializeDriver(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.example.TwistedMountainAnimation.Tests.HomePageTitleTest@53fb3dab]" started-at="2025-02-06T09:42:06 IST" name="initializeDriver" finished-at="2025-02-06T09:42:23 IST" duration-ms="17521" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -69,17 +69,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeDriver -->
-        <test-method signature="testHomePageTitle()[pri:0, instance:com.example.TwistedMountainAnimation.Tests.HomePageTitleTest@53fb3dab]" started-at="2025-02-04T23:43:13 IST" name="testHomePageTitle" finished-at="2025-02-04T23:43:13 IST" duration-ms="251" status="PASS">
+        <test-method signature="testHomePageTitle()[pri:0, instance:com.example.TwistedMountainAnimation.Tests.HomePageTitleTest@53fb3dab]" started-at="2025-02-06T09:42:23 IST" name="testHomePageTitle" finished-at="2025-02-06T09:42:23 IST" duration-ms="331" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testHomePageTitle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.TwistedMountainAnimation.Tests.HomePageTitleTest@53fb3dab]" started-at="2025-02-04T23:43:13 IST" name="tearDown" finished-at="2025-02-04T23:43:15 IST" duration-ms="1425" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.TwistedMountainAnimation.Tests.HomePageTitleTest@53fb3dab]" started-at="2025-02-06T09:42:23 IST" name="tearDown" finished-at="2025-02-06T09:42:25 IST" duration-ms="1462" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.example.TwistedMountainAnimation.Tests.HomePageTitleTest -->
       <class name="com.example.TwistedMountainAnimation.Tests.ProductSearchTest">
-        <test-method is-config="true" signature="initializeDriver(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.example.TwistedMountainAnimation.Tests.ProductSearchTest@7c137fd5]" started-at="2025-02-04T23:43:15 IST" name="initializeDriver" finished-at="2025-02-04T23:43:32 IST" duration-ms="17001" status="PASS">
+        <test-method is-config="true" signature="initializeDriver(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.example.TwistedMountainAnimation.Tests.ProductSearchTest@7c137fd5]" started-at="2025-02-06T09:42:25 IST" name="initializeDriver" finished-at="2025-02-06T09:42:42 IST" duration-ms="17539" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -105,19 +105,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeDriver -->
-        <test-method signature="verifyProductSearchAndDetails()[pri:0, instance:com.example.TwistedMountainAnimation.Tests.ProductSearchTest@7c137fd5]" started-at="2025-02-04T23:43:32 IST" name="verifyProductSearchAndDetails" finished-at="2025-02-04T23:43:47 IST" duration-ms="15353" status="PASS">
+        <test-method signature="verifyProductSearchAndDetails()[pri:0, instance:com.example.TwistedMountainAnimation.Tests.ProductSearchTest@7c137fd5]" started-at="2025-02-06T09:42:42 IST" name="verifyProductSearchAndDetails" finished-at="2025-02-06T09:43:06 IST" duration-ms="23972" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyProductSearchAndDetails -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.TwistedMountainAnimation.Tests.ProductSearchTest@7c137fd5]" started-at="2025-02-04T23:43:47 IST" name="tearDown" finished-at="2025-02-04T23:43:49 IST" duration-ms="1659" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.TwistedMountainAnimation.Tests.ProductSearchTest@7c137fd5]" started-at="2025-02-06T09:43:06 IST" name="tearDown" finished-at="2025-02-06T09:43:08 IST" duration-ms="1411" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.example.TwistedMountainAnimation.Tests.ProductSearchTest -->
     </test> <!-- Chrome-1920x1080 -->
-    <test started-at="2025-02-04T23:42:50 IST" name="Firefox-1920x1080" finished-at="2025-02-04T23:45:07 IST" duration-ms="136876">
+    <test started-at="2025-02-06T09:42:06 IST" name="Firefox-1920x1080" finished-at="2025-02-06T09:44:08 IST" duration-ms="122544">
       <class name="com.example.TwistedMountainAnimation.Tests.FooterLinkStatusTest">
-        <test-method is-config="true" signature="initializeDriver(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.example.TwistedMountainAnimation.Tests.FooterLinkStatusTest@2de56eb2]" started-at="2025-02-04T23:44:14 IST" name="initializeDriver" finished-at="2025-02-04T23:44:29 IST" duration-ms="15005" status="PASS">
+        <test-method is-config="true" signature="initializeDriver(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.example.TwistedMountainAnimation.Tests.FooterLinkStatusTest@2de56eb2]" started-at="2025-02-06T09:43:12 IST" name="initializeDriver" finished-at="2025-02-06T09:43:30 IST" duration-ms="17773" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -143,17 +143,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeDriver -->
-        <test-method signature="verifyFooterLinksStatus()[pri:0, instance:com.example.TwistedMountainAnimation.Tests.FooterLinkStatusTest@2de56eb2]" started-at="2025-02-04T23:44:29 IST" name="verifyFooterLinksStatus" finished-at="2025-02-04T23:45:05 IST" duration-ms="35944" status="PASS">
+        <test-method signature="verifyFooterLinksStatus()[pri:0, instance:com.example.TwistedMountainAnimation.Tests.FooterLinkStatusTest@2de56eb2]" started-at="2025-02-06T09:43:30 IST" name="verifyFooterLinksStatus" finished-at="2025-02-06T09:44:07 IST" duration-ms="36535" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyFooterLinksStatus -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.TwistedMountainAnimation.Tests.FooterLinkStatusTest@2de56eb2]" started-at="2025-02-04T23:45:05 IST" name="tearDown" finished-at="2025-02-04T23:45:07 IST" duration-ms="1423" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.TwistedMountainAnimation.Tests.FooterLinkStatusTest@2de56eb2]" started-at="2025-02-06T09:44:07 IST" name="tearDown" finished-at="2025-02-06T09:44:08 IST" duration-ms="1379" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.example.TwistedMountainAnimation.Tests.FooterLinkStatusTest -->
       <class name="com.example.TwistedMountainAnimation.Tests.HomePageTitleTest">
-        <test-method is-config="true" signature="initializeDriver(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.example.TwistedMountainAnimation.Tests.HomePageTitleTest@2a8448fa]" started-at="2025-02-04T23:42:50 IST" name="initializeDriver" finished-at="2025-02-04T23:43:38 IST" duration-ms="47853" status="PASS">
+        <test-method is-config="true" signature="initializeDriver(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.example.TwistedMountainAnimation.Tests.HomePageTitleTest@2a8448fa]" started-at="2025-02-06T09:42:06 IST" name="initializeDriver" finished-at="2025-02-06T09:42:30 IST" duration-ms="24006" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -179,17 +179,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeDriver -->
-        <test-method signature="testHomePageTitle()[pri:0, instance:com.example.TwistedMountainAnimation.Tests.HomePageTitleTest@2a8448fa]" started-at="2025-02-04T23:43:38 IST" name="testHomePageTitle" finished-at="2025-02-04T23:43:38 IST" duration-ms="396" status="PASS">
+        <test-method signature="testHomePageTitle()[pri:0, instance:com.example.TwistedMountainAnimation.Tests.HomePageTitleTest@2a8448fa]" started-at="2025-02-06T09:42:30 IST" name="testHomePageTitle" finished-at="2025-02-06T09:42:30 IST" duration-ms="434" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testHomePageTitle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.TwistedMountainAnimation.Tests.HomePageTitleTest@2a8448fa]" started-at="2025-02-04T23:43:38 IST" name="tearDown" finished-at="2025-02-04T23:43:40 IST" duration-ms="1428" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.TwistedMountainAnimation.Tests.HomePageTitleTest@2a8448fa]" started-at="2025-02-06T09:42:30 IST" name="tearDown" finished-at="2025-02-06T09:42:31 IST" duration-ms="1353" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.example.TwistedMountainAnimation.Tests.HomePageTitleTest -->
       <class name="com.example.TwistedMountainAnimation.Tests.ProductSearchTest">
-        <test-method is-config="true" signature="initializeDriver(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.example.TwistedMountainAnimation.Tests.ProductSearchTest@6f204a1a]" started-at="2025-02-04T23:43:40 IST" name="initializeDriver" finished-at="2025-02-04T23:43:59 IST" duration-ms="19262" status="PASS">
+        <test-method is-config="true" signature="initializeDriver(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.example.TwistedMountainAnimation.Tests.ProductSearchTest@6f204a1a]" started-at="2025-02-06T09:42:31 IST" name="initializeDriver" finished-at="2025-02-06T09:42:45 IST" duration-ms="14071" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -215,11 +215,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeDriver -->
-        <test-method signature="verifyProductSearchAndDetails()[pri:0, instance:com.example.TwistedMountainAnimation.Tests.ProductSearchTest@6f204a1a]" started-at="2025-02-04T23:43:59 IST" name="verifyProductSearchAndDetails" finished-at="2025-02-04T23:44:13 IST" duration-ms="14020" status="PASS">
+        <test-method signature="verifyProductSearchAndDetails()[pri:0, instance:com.example.TwistedMountainAnimation.Tests.ProductSearchTest@6f204a1a]" started-at="2025-02-06T09:42:45 IST" name="verifyProductSearchAndDetails" finished-at="2025-02-06T09:43:11 IST" duration-ms="25527" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyProductSearchAndDetails -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.TwistedMountainAnimation.Tests.ProductSearchTest@6f204a1a]" started-at="2025-02-04T23:44:13 IST" name="tearDown" finished-at="2025-02-04T23:44:14 IST" duration-ms="1428" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.TwistedMountainAnimation.Tests.ProductSearchTest@6f204a1a]" started-at="2025-02-06T09:43:11 IST" name="tearDown" finished-at="2025-02-06T09:43:12 IST" duration-ms="1376" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

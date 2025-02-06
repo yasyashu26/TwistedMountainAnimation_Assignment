@@ -12,7 +12,8 @@ public class ProductSearchTest extends BaseTest {
 	@Test
     public void verifyProductSearchAndDetails() throws InterruptedException {
         String productName = "Car"; 
-
+        
+        homePage.closeDialogPopUp();
         SearchPage searchPage = homePage.searchForProduct(productName);
         Assert.assertTrue(searchPage.getFirstProductTitle().contains(productName), "Search did not return correct results");
         System.out.println("Search functionality works correctly");
